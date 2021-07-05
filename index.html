@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons--wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        .dictionary {
+            width: 400px;
+        }
+
+        .dictionary--item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+<div id="translator--target"></div>
+<script src="https://cdn.jsdelivr.net/npm/ractive"></script>
+<script src="./Translator.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
